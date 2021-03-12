@@ -1,0 +1,12 @@
+/Users/aaronbery/Projects/ng-component-in-template-finder/ng-component-in-template-finder/bin/Debug/netcoreapp3.1/ng-component-in-template-finder.deps.json
+/Users/aaronbery/Projects/ng-component-in-template-finder/ng-component-in-template-finder/bin/Debug/netcoreapp3.1/ng-component-in-template-finder.runtimeconfig.json
+/Users/aaronbery/Projects/ng-component-in-template-finder/ng-component-in-template-finder/bin/Debug/netcoreapp3.1/ng-component-in-template-finder.runtimeconfig.dev.json
+/Users/aaronbery/Projects/ng-component-in-template-finder/ng-component-in-template-finder/bin/Debug/netcoreapp3.1/ng-component-in-template-finder.dll
+/Users/aaronbery/Projects/ng-component-in-template-finder/ng-component-in-template-finder/bin/Debug/netcoreapp3.1/ng-component-in-template-finder.pdb
+/Users/aaronbery/Projects/ng-component-in-template-finder/ng-component-in-template-finder/obj/Debug/netcoreapp3.1/ng-component-in-template-finder.csprojAssemblyReference.cache
+/Users/aaronbery/Projects/ng-component-in-template-finder/ng-component-in-template-finder/obj/Debug/netcoreapp3.1/ng-component-in-template-finder.AssemblyInfoInputs.cache
+/Users/aaronbery/Projects/ng-component-in-template-finder/ng-component-in-template-finder/obj/Debug/netcoreapp3.1/ng-component-in-template-finder.AssemblyInfo.cs
+/Users/aaronbery/Projects/ng-component-in-template-finder/ng-component-in-template-finder/obj/Debug/netcoreapp3.1/ng-component-in-template-finder.csproj.CoreCompileInputs.cache
+/Users/aaronbery/Projects/ng-component-in-template-finder/ng-component-in-template-finder/obj/Debug/netcoreapp3.1/ng-component-in-template-finder.dll
+/Users/aaronbery/Projects/ng-component-in-template-finder/ng-component-in-template-finder/obj/Debug/netcoreapp3.1/ng-component-in-template-finder.pdb
+/Users/aaronbery/Projects/ng-component-in-template-finder/ng-component-in-template-finder/obj/Debug/netcoreapp3.1/ng-component-in-template-finder.genruntimeconfig.cache
