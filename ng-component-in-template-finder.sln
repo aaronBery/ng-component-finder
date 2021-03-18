@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ng-component-in-template-finder", "ng-component-in-template-finder\ng-component-in-template-finder.csproj", "{EB5D654C-DF03-49B3-8343-EA0929855946}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB5D654C-DF03-49B3-8343-EA0929855946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5D654C-DF03-49B3-8343-EA0929855946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5D654C-DF03-49B3-8343-EA0929855946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5D654C-DF03-49B3-8343-EA0929855946}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BD1323B-0C34-44DA-88FA-42B44CA9876D}
+	EndGlobalSection
+EndGlobal
