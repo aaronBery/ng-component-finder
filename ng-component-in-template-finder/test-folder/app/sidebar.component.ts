@@ -1,7 +1,7 @@
 ﻿import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-    selector: 'app-sidebar',
+    selector: 'test-sidebar',
     templateUrl: 'sidebar.component.html'
 })
 
