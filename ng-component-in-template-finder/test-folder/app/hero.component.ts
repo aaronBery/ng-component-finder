@@ -1,7 +1,7 @@
 ﻿import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-    selector: 'ma-hero',
+    selector: 'app-hero',
     templateUrl: 'hero.component.html'
 })
 
