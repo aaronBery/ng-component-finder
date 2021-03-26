@@ -5,9 +5,9 @@ using System.Text.RegularExpressions;
 
 namespace ng_component_in_template_finder
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             if (args.Length > 0)
             {
@@ -24,7 +24,7 @@ namespace ng_component_in_template_finder
                     if (IsComponentFile(file))
                     {
                         var selector = GetComponentSelectorInFile(file);
-                        if (selector != null && !IsSelectorUsed(selector, rootDirectory))
+                        if (selector != null && !IsSelectorUsedInDirectory(rootDirectory, selector))
                         {
                             Console.WriteLine($"Selector {selector} is not in use");
                         }
@@ -37,18 +37,18 @@ namespace ng_component_in_template_finder
             }
         }
 
-        static bool IsHtmlFile(string fileName)
+        public static bool IsHtmlFile(string fileName)
         {
             return Regex.Match(fileName, "^.+\\.html$").Success;
         }
 
-        static bool IsComponentFile(string fileName)
+        public static bool IsComponentFile(string fileName)
         {
             return Regex.Match(fileName, "^.+\\.component\\.ts").Success;
         }
 
 
-        static void Process(string path, string rootDirectory)
+        public static void Process(string path, string rootDirectory)
         {
             try
             {
@@ -75,32 +75,7 @@ namespace ng_component_in_template_finder
             }
         }
 
-        static bool IsSelectorUsed(string selector, string rootDirectory)
-        {
-            bool isUsed = false;
-
-            string[] directories = Directory.GetDirectories(rootDirectory);
-
-            string[] files = Directory.GetFiles(rootDirectory);
-
-            if (IsSelectorUsedInFiles(files, selector))
-            {
-                isUsed = true;
-            }
-
-            foreach (string directory in directories)
-            {
-                if (IsSelectorUsedInDirectory(directory, selector))
-                {
-                    isUsed = true;
-                }
-            }
-
-
-            return isUsed;
-        }
-
-        static bool IsSelectorUsedInDirectory(string path, string selector)
+        public static bool IsSelectorUsedInDirectory(string path, string selector)
         {
             bool isUsed = false;
 
@@ -131,7 +106,7 @@ namespace ng_component_in_template_finder
             return isUsed;
         }
 
-        static bool IsSelectorUsedInFiles(string[] files, string selector)
+        public static bool IsSelectorUsedInFiles(string[] files, string selector)
         {
             bool isUsed = false;
 
@@ -164,7 +139,7 @@ namespace ng_component_in_template_finder
             return isUsed;
         }
 
-        static string GetComponentSelectorInFile(string path)
+        public static string GetComponentSelectorInFile(string path)
         {
             string selector = null;
 
