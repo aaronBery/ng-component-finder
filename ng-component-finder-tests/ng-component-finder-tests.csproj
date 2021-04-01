@@ -14,6 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ng-component-in-template-finder\ng-component-in-template-finder.csproj" />
+    <ProjectReference Include="..\ng-component-finder\ng-component-finder.csproj" />
   </ItemGroup>
 </Project>

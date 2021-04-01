@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using ng_component_in_template_finder;
+using ng_component_finder;
 using System;
 
 namespace ng_component_finder_tests
@@ -32,7 +32,7 @@ namespace ng_component_finder_tests
         [Test]
         public void IsSelectorUsedInDirectoryTest()
         {
-            const string rootDirectory = "../../../../ng-component-in-template-finder/test-folder/app/";
+            const string rootDirectory = "../../../../ng-component-finder/test-folder/app/";
             Assert.True(Program.IsSelectorUsedInDirectory(rootDirectory, "app-heroes"));
             Assert.False(Program.IsSelectorUsedInDirectory(rootDirectory, "app-villains"));
         }
@@ -40,7 +40,7 @@ namespace ng_component_finder_tests
         [Test]
         public void IsSelectorUsedInFilesTest()
         {
-            const string file = "../../../../ng-component-in-template-finder/test-folder/app/layout.component.html";
+            const string file = "../../../../ng-component-finder/test-folder/app/layout.component.html";
             string[] files = new String[] { file };
             Assert.True(Program.IsSelectorUsedInFiles(files, "app-heroes"));
             Assert.False(Program.IsSelectorUsedInFiles(files, "app-villains"));
@@ -49,7 +49,7 @@ namespace ng_component_finder_tests
         [Test]
         public void GetComponentSelectorInFileTest()
         {
-            const string file = "../../../../ng-component-in-template-finder/test-folder/app/hero.component.ts";
+            const string file = "../../../../ng-component-finder/test-folder/app/hero.component.ts";
             Assert.AreEqual("app-hero", Program.GetComponentSelectorInFile(file));
         }
     }

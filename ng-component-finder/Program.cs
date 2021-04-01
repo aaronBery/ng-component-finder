@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace ng_component_in_template_finder
+namespace ng_component_finder
 {
     public class Program
     {
