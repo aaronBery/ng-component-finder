@@ -1,5 +1,5 @@
 # Ng Component Finder
-Finds components in an angular app that are not in use in order to facilitate app maintenance. Currently it is able to find components that are included in html template files.
+Finds components in an angular app that are not in use in order to facilitate app maintenance. Currently it is able to find components that are included in html template files or defined in routes.
 
 ## Install
 Dotnet core 3.1 needs to be installed on your system. Dotnet core is available on Windows, Mac OS and Linux from Microsoft
